@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.1380640304">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.1380640304" moduleId="org.eclipse.cdt.core.settings" name="linux-amd64-dbg">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.1380640304" name="linux-amd64-dbg" parent="cdt.managedbuild.config.gnu.exe.debug">
+                    					
+                    <folderInfo id="cdt.managedbuild.config.gnu.exe.debug.1380640304." name="/" resourcePath="">
+                        						
+                        <toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.191127345" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
+                            							
+                            <targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.debug.1928275294" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+                            							
+                            <builder buildPath="${workspace_loc:/hotspot}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.2016205239" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.archiver.base.645756476" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1420264123" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
+                                								
+                                <option id="gnu.cpp.compiler.exe.debug.option.optimization.level.2087828984" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.exe.debug.option.debugging.level.2135086298" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.include.paths.1660741819" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/gensrc/adfiles}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/linux}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/posix}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/cpu/x86}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os_cpu/linux_x86}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/gensrc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/precompiled}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.preprocessor.def.1217786382" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="ASSERT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="DEBUG=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="AMD64=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="LINUX=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COMPILER1=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COMPILER2=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="TARGET_ARCH_x86=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="HOTSPOT_LIB_ARCH=amd64"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="TARGET_COMPILER_gcc=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="isnan=JUST_TO_PREVENT_INDEXER_ERRORS"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="isnanf=JUST_TO_PREVENT_INDEXER_ERRORS"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="_LP64=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="int64_t=long"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_x86"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="INCLUDE_SUFFIX_COMPILER=_gcc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VM_LITTLE_ENDIAN=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="HOTSPOT_VERSION_STRING=&quot;internal.jdk-hs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_STRING=&quot;internal.jdk-hs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_FEATURE=10"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_INTERIM=0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_UPDATE=0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_PATCH=0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_BUILD=0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="DEBUG_LEVEL=&quot;slowdebug&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="HOTSPOT_VM_DISTRO=&quot;OpenJDK&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1419032342" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1829815169" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.532267163" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.exe.debug.option.debugging.level.1020645323" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.option.include.paths.1978771177" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/gensrc/adfiles}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/linux}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/posix}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/cpu/x86}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os_cpu/linux_x86}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/gensrc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/precompiled}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.compiler.option.preprocessor.def.symbols.1241674089" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="ASSERT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="DEBUG=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="AMD64=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="LINUX=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COMPILER1=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COMPILER2=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="TARGET_ARCH_x86=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="HOTSPOT_LIB_ARCH=amd64"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="TARGET_COMPILER_gcc=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="isnan=JUST_TO_PREVENT_INDEXER_ERRORS"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="isnanf=JUST_TO_PREVENT_INDEXER_ERRORS"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="_LP64=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="int64_t=long"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_x86"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="INCLUDE_SUFFIX_COMPILER=_gcc"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VM_LITTLE_ENDIAN=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="HOTSPOT_VERSION_STRING=&quot;internal.jdk-hs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_STRING=&quot;internal.jdk-hs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_FEATURE=10"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_INTERIM=0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_UPDATE=0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_PATCH=0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="VERSION_BUILD=0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="DEBUG_LEVEL=&quot;slowdebug&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="HOTSPOT_VM_DISTRO=&quot;OpenJDK&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.626641650" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.1570186678" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug"/>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.874195205" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug">
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1885318947" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.assembler.exe.debug.1558044984" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug">
+                                								
+                                <option id="gnu.both.asm.option.include.paths.1903337802" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/gensrc/adfiles}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/linux}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/posix}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/cpu/x86}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os_cpu/linux_x86}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/gensrc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/precompiled}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.assembler.input.441072609" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="hotspot.cdt.managedbuild.target.gnu.exe.1205866626" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.1380640304;cdt.managedbuild.config.gnu.exe.debug.1380640304.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1829815169;cdt.managedbuild.tool.gnu.c.compiler.input.626641650">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.1380640304;cdt.managedbuild.config.gnu.exe.debug.1380640304.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1420264123;cdt.managedbuild.tool.gnu.cpp.compiler.input.1419032342">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    	
+    <storageModule moduleId="refreshScope" versionNumber="2">
+        		
+        <configuration configurationName="linux-amd64-dbg">
+            			
+            <resource resourceType="PROJECT" workspacePath="/hs"/>
+            		
+        </configuration>
+        		
+        <configuration configurationName="linux-ppc64-dbg">
+            			
+            <resource resourceType="PROJECT" workspacePath="/hs"/>
+            		
+        </configuration>
+        	
+    </storageModule>
+    
+</cproject>
