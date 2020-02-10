@@ -4,11 +4,13 @@ Note: these CDT projects link their sources from the ojdk repository. They are m
 
 Example setup:
 
+```
 - my-jdk
    |
    |--sources (contains openjdk sources)
    |--output  (contains build output)
    |--ojdk-cdt (these files)
+```
 
 1) Open "ojdk-cdt" as workspace in Eclipse CDT
 2) Preferences->Linked Resources:
@@ -20,9 +22,11 @@ You should have now a workspace with two projects, "hs" (containing the hotspot 
 
 You may have to actually build the OpenJDK to populate the output directory and get all generated sources (especially for the compiler). Do this by:
 
+```
 cd output
 bash ../source/configure
 make images
+```
 
 Notes:
 - used mainly on Linux but should work on other platforms too.
