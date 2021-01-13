@@ -71,9 +71,9 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs-gtests/gtest}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/latest/googletest/include"/>
+                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest/googletest/include"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/latest/googlemock/include"/>
+                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest/googlemock/include"/>
                                     								
                                 </option>
                                 								
@@ -169,9 +169,9 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs-gtests/gtest}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/latest/googletest/include"/>
+                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest/googletest/include"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/latest/googlemock/include"/>
+                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest/googlemock/include"/>
                                     								
                                 </option>
                                 								
@@ -277,9 +277,9 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs-gtests/gtest}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/latest/googletest/include"/>
+                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest/googletest/include"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/latest/googlemock/include"/>
+                                    <listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest/googlemock/include"/>
                                     								
                                 </option>
                                 								
