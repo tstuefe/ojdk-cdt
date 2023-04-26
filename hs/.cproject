@@ -34,7 +34,6 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/precompiled}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
-									<listOptionValue builtIn="false" value="/shared/projects/jemalloc/install/include/jemalloc"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.preprocessor.def.1217786382" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ASSERT=1"/>
@@ -81,8 +80,6 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/precompiled}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
-									<listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest-1.13.0/googletest/include"/>
-									<listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest-1.13.0/googlemock/include"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.preprocessor.def.symbols.1241674089" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ASSERT=1"/>
@@ -134,8 +131,6 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/precompiled}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
-									<listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest-1.13.0/googletest/include"/>
-									<listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest-1.13.0/googlemock/include"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.441072609" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -174,8 +169,6 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/precompiled}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
-									<listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest/googletest/include"/>
-									<listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest/googlemock/include"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.609290522" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
@@ -193,8 +186,6 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/precompiled}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
-									<listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest/googletest/include"/>
-									<listOptionValue builtIn="false" value="/shared/projects/openjdk/gtest/googletest/googlemock/include"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.373295646" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
