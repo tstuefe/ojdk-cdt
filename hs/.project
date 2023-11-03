@@ -28,7 +28,7 @@
 		<link>
 			<name>gensrc</name>
 			<type>2</type>
-			<locationURI>OPENJDK_OUTPUT_ROOT/hotspot/linux_amd64_compiler2/generated</locationURI>
+			<locationURI>OPENJDK_OUTPUT_ROOT/hotspot/linux_amd64_zero/generated</locationURI>
 		</link>
 		<link>
 			<name>gtest</name>
