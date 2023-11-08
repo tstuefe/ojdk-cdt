@@ -36,6 +36,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/posix/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base/linux}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/cpu/x86}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os_cpu/linux_x86}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.preprocessor.def.1217786382" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
@@ -50,17 +52,17 @@
 									<listOptionValue builtIn="false" value="_LP64=1"/>
 									<listOptionValue builtIn="false" value="ASSERT=1"/>
 									<listOptionValue builtIn="false" value="CHECK_UNHANDLED_OOPS=1"/>
-									<listOptionValue builtIn="false" value="TARGET_ARCH_aarch64=1"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
-									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_aarch64"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_COMPILER=_gcc"/>
 									<listOptionValue builtIn="false" value="TARGET_COMPILER_gcc=1"/>
-									<listOptionValue builtIn="false" value="AARCH64=1"/>
-									<listOptionValue builtIn="false" value="HOTSPOT_LIB_ARCH=&quot;aarch64&quot;"/>
+									<listOptionValue builtIn="false" value="HOTSPOT_LIB_ARCH=&quot;amd64&quot;"/>
 									<listOptionValue builtIn="false" value="COMPILER1=1"/>
 									<listOptionValue builtIn="false" value="COMPILER2=1"/>
 									<listOptionValue builtIn="false" value="DTRACE_ENABLED=1"/>
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
+									<listOptionValue builtIn="false" value="AMD64=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_x86"/>
+									<listOptionValue builtIn="false" value="TARGET_ARCH_x86=1"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1419032342" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -80,6 +82,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/posix/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base/linux}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/cpu/x86}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os_cpu/linux_x86}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.preprocessor.def.symbols.1241674089" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
@@ -94,17 +98,17 @@
 									<listOptionValue builtIn="false" value="_LP64=1"/>
 									<listOptionValue builtIn="false" value="ASSERT=1"/>
 									<listOptionValue builtIn="false" value="CHECK_UNHANDLED_OOPS=1"/>
-									<listOptionValue builtIn="false" value="TARGET_ARCH_aarch64=1"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
-									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_aarch64"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_COMPILER=_gcc"/>
 									<listOptionValue builtIn="false" value="TARGET_COMPILER_gcc=1"/>
-									<listOptionValue builtIn="false" value="AARCH64=1"/>
-									<listOptionValue builtIn="false" value="HOTSPOT_LIB_ARCH=&quot;aarch64&quot;"/>
+									<listOptionValue builtIn="false" value="HOTSPOT_LIB_ARCH=&quot;amd64&quot;"/>
 									<listOptionValue builtIn="false" value="COMPILER1=1"/>
 									<listOptionValue builtIn="false" value="COMPILER2=1"/>
 									<listOptionValue builtIn="false" value="DTRACE_ENABLED=1"/>
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
+									<listOptionValue builtIn="false" value="AMD64=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_x86"/>
+									<listOptionValue builtIn="false" value="TARGET_ARCH_x86=1"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.626641650" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
@@ -122,13 +126,13 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/linux}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/posix}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/cpu/aarch64}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os_cpu/linux_aarch64}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/precompiled}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/posix/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base/linux}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/cpu/x86}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os_cpu/linux_x86}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.441072609" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -169,6 +173,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/posix/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base/linux}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/cpu/x86}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os_cpu/linux_x86}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.609290522" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
@@ -181,13 +187,13 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/linux}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/posix}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/cpu/aarch64}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os_cpu/linux_aarch64}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/precompiled}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/share/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os/posix/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/java.base/linux}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/cpu/x86}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/hs/hotspot/os_cpu/linux_x86}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.373295646" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
